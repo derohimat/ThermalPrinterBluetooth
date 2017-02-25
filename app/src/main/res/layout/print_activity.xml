@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/selector_btn"
+        android:text="@string/btnSearch"
+        android:textColor="@color/text_white"/>
+
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical|top"
+        android:hint="Input Text for Print"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_btn"
+        android:text="@string/btnSend"
+        android:textColor="@color/text_white"/>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_btn"
+        android:text="@string/btn_test"
+        android:textColor="@color/text_white"/>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_btn"
+        android:text="@string/btnClose"
+        android:textColor="@color/text_white"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- you can edit them easy in styles -> theme manager -->
+
+    <!-- Dark Theme -->
+    <color name="app_window_bgdark_color">#FFFFFF</color>
+    <color name="app_window_bglight_color">#FFFFFF</color>
+    <color name="app_text_unimportant">#8e8e8e</color>
+    <color name="app_text_label">#656565</color>
+    <color name="app_base">@color/appcolor_blue</color>
+    <color name="app_base_dark">@color/appcolor_blue_dark</color>
+
+    <color name="appcolor_blue">#039be5</color>
+    <color name="appcolor_blue_dark">#0169ae</color>
+    <color name="appcolor_red">#c51162</color>
+    <color name="appcolor_green">#4db6ac</color>
+    <color name="appcolor_light_grey">#000000</color>
+
+    <color name="colorPrimary">@color/app_base</color>
+    <color name="colorPrimaryDark">@color/app_base_dark</color>
+    <color name="colorAccent">@color/app_window_bglight_color</color>
+    <color name="colorAccentLighter">@color/appcolor_green</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="text_white">#FFFFFF</color>
+
+</resources>
